@@ -1,0 +1,405 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Jan Kowalski",
+      "email": "jan.kowalski@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "address": "ul. Example 1, 00-001 Warszawa",
+      "joinDate": "2023-01-15T10:00:00Z",
+      "isVerified": true
+    },
+    {
+      "id": "2",
+      "name": "Anna Nowak",
+      "email": "anna.nowak@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "address": "ul. Sample 2, 30-002 Kraków",
+      "joinDate": "2023-02-20T14:30:00Z",
+      "isVerified": false
+    },
+    {
+      "id": "3",
+      "name": "t",
+      "email": "t",
+      "password": "ttttttt",
+      "address": "t",
+      "avatar": "https://i.pravatar.cc/150?u=t"
+    },
+    {
+      "id": "4",
+      "name": "test",
+      "email": "test",
+      "password": "testtest",
+      "address": "test",
+      "avatar": "https://i.pravatar.cc/150?u=test"
+    },
+    {
+      "id": "5",
+      "email": "test",
+      "password": "testtest"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "author": "1",
+      "authorAvatar": "https://i.pravatar.cc/150?img=1",
+      "content": "Witajcie w naszej społeczności! Dziś piękny dzień!",
+      "image": "https://picsum.photos/seed/post1/600/400",
+      "likes": 24,
+      "comments": 5,
+      "location": "Warszawa",
+      "type": "general"
+    },
+    {
+      "id": "2",
+      "author": "2",
+      "authorAvatar": "https://i.pravatar.cc/150?img=2",
+      "content": "Uwaga! Awaria wody w dzielnicy Centrum od godziny 10:00 do 16:00",
+      "likes": 15,
+      "comments": 3,
+      "location": "Kraków",
+      "type": "alert"
+    },
+    {
+      "id": "3",
+      "content": "test",
+      "location": "test",
+      "type": "general",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fbolt-expo-nativewind-e2787872-e09b-4bd2-aa23-678c2583a07d/ImagePicker/8d1e960a-b3ba-481d-8f8f-98ef7f6be938.jpeg",
+      "createdAt": "2025-04-02T12:40:39.673Z"
+    },
+    {
+      "id": "4",
+      "content": "test",
+      "location": "test",
+      "type": "general",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fbolt-expo-nativewind-e2787872-e09b-4bd2-aa23-678c2583a07d/ImagePicker/8a1face5-02fe-45b5-a77d-7e749dffd34b.jpeg",
+      "createdAt": "2025-04-02T13:08:33.489Z"
+    },
+    {
+      "id": "5",
+      "content": "TestW",
+      "location": "Test",
+      "type": "alert",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fbolt-expo-nativewind-e2787872-e09b-4bd2-aa23-678c2583a07d/ImagePicker/1a646fb4-1a78-4772-8c7a-ce6aff7a336e.jpeg",
+      "createdAt": "2025-04-04T15:38:20.663Z"
+    },
+    {
+      "id": "6",
+      "content": "T",
+      "location": "TTTT",
+      "type": "alert",
+      "createdAt": "2025-04-08T16:30:47.367Z"
+    },
+    {
+      "id": "7",
+      "content": "TEST@",
+      "location": "TEST",
+      "type": "alert",
+      "timestamp": "2025-05-18T06:34:33.929Z"
+    },
+    {
+      "id": "8",
+      "content": "TESTr",
+      "location": "Testr",
+      "type": "event",
+      "timestamp": "2025-05-18T10:21:20.863Z"
+    },
+    {
+      "id": "9",
+      "content": "TEST",
+      "location": "TEST",
+      "type": "event",
+      "timestamp": "2025-05-18T11:27:20.030Z"
+    },
+    {
+      "id": "10",
+      "content": "testw",
+      "location": "!",
+      "type": "event",
+      "timestamp": "2025-05-19T23:51:14.127Z"
+    },
+    {
+      "id": "11",
+      "content": "TEST34",
+      "location": "Amphitheatre Parkway, Mountain View, California, United States",
+      "type": "general",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fbolt-expo-nativewind-e2787872-e09b-4bd2-aa23-678c2583a07d/ImagePicker/e09f7cd8-a6ff-493c-9e04-119532fa3659.jpeg"
+    },
+    {
+      "id": "12",
+      "content": "TEST54",
+      "location": "Rrrr",
+      "type": "general",
+      "timestamp": "2025-06-08T21:42:16.523Z"
+    },
+    {
+      "id": "13",
+      "content": "Test",
+      "location": "Amphitheatre Parkway, Mountain View, California, United States",
+      "type": "event",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fbolt-expo-nativewind-e2787872-e09b-4bd2-aa23-678c2583a07d/ImagePicker/e5cf1635-6000-446b-9d37-73b9ba14f47a.jpeg",
+      "timestamp": "2025-06-09T10:29:53.904Z"
+    },
+    {
+      "id": "14",
+      "content": "Testkoncowy",
+      "location": "Amphitheatre Parkway, Mountain View, California, United States",
+      "type": "general",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fbolt-expo-nativewind-e2787872-e09b-4bd2-aa23-678c2583a07d/ImagePicker/90b6d744-5f83-492f-8c61-e311c71b19c6.jpeg",
+      "timestamp": "2025-06-09T14:09:11.856Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": "1",
+      "author": "2",
+      "authorAvatar": "https://i.pravatar.cc/150?img=2",
+      "content": "Świetny post!"
+    },
+    {
+      "id": "2",
+      "postId": "1",
+      "author": "1",
+      "authorAvatar": "https://i.pravatar.cc/150?img=1",
+      "content": "Dziękuję!"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "1",
+      "name": "Restauracja Pod Kogutem",
+      "category": "Restauracja",
+      "rating": 4.5,
+      "reviewCount": 128,
+      "address": "ul. Gastronomiczna 5, 00-001 Warszawa",
+      "phone": "+48 123 456 789",
+      "hours": "10:00 - 22:00",
+      "image": "https://picsum.photos/seed/restaurant/600/400",
+      "isOpen": true,
+      "description": "Tradycyjna polska kuchnia w nowoczesnym wydaniu."
+    },
+    {
+      "id": "2",
+      "name": "Sklep Elektroniczny TechPlus",
+      "category": "Elektronika",
+      "rating": 4.2,
+      "reviewCount": 76,
+      "address": "ul. Techniczna 12, 30-002 Kraków",
+      "phone": "+48 987 654 321",
+      "hours": "09:00 - 21:00",
+      "image": "https://picsum.photos/seed/electronics/600/400",
+      "isOpen": false,
+      "description": "Najnowsza elektronika w konkurencyjnych cenach."
+    },
+    {
+      "id": "3",
+      "name": "Corner Café",
+      "category": "Restaurant",
+      "rating": 4.8,
+      "reviewCount": 124,
+      "address": "123 Main Street",
+      "phone": "(555) 123-4567",
+      "hours": "7 AM - 9 PM",
+      "image": "https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "isOpen": true,
+      "isFavorite": false,
+      "description": "Local favorite serving fresh coffee and homemade pastries"
+    },
+    {
+      "id": "4",
+      "name": "Green Valley Pharmacy",
+      "category": "Healthcare",
+      "rating": 4.6,
+      "reviewCount": 89,
+      "address": "456 Oak Avenue",
+      "phone": "(555) 234-5678",
+      "hours": "8 AM - 10 PM",
+      "image": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "isOpen": true,
+      "isFavorite": true,
+      "description": "Full-service pharmacy with friendly neighborhood service"
+    },
+    {
+      "id": "5",
+      "name": "Pete's Auto Repair",
+      "category": "Automotive",
+      "rating": 4.9,
+      "reviewCount": 156,
+      "address": "789 Industrial Blvd",
+      "phone": "(555) 345-6789",
+      "hours": "8 AM - 6 PM",
+      "image": "https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "isOpen": false,
+      "isFavorite": false,
+      "description": "Honest and reliable auto repair with 20+ years experience"
+    },
+    {
+      "id": "6",
+      "name": "Sunny Days Daycare",
+      "category": "Education",
+      "rating": 4.7,
+      "reviewCount": 67,
+      "address": "321 Elm Street",
+      "phone": "(555) 456-7890",
+      "hours": "6 AM - 6 PM",
+      "image": "https://images.pexels.com/photos/8500723/pexels-photo-8500723.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "isOpen": true,
+      "isFavorite": true,
+      "description": "Quality childcare with experienced and caring staff"
+    },
+    {
+      "id": "7",
+      "name": "Fresh Market",
+      "category": "Grocery",
+      "rating": 4.4,
+      "reviewCount": 203,
+      "address": "654 Pine Road",
+      "phone": "(555) 567-8901",
+      "hours": "6 AM - 11 PM",
+      "image": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "isOpen": true,
+      "isFavorite": false,
+      "description": "Fresh produce and groceries from local suppliers"
+    },
+    {
+      "id": "8",
+      "name": "Fitness First Gym",
+      "category": "Fitness",
+      "rating": 4.5,
+      "reviewCount": 91,
+      "address": "987 Sports Complex",
+      "phone": "(555) 678-9012",
+      "hours": "5 AM - 11 PM",
+      "image": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "isOpen": true,
+      "isFavorite": false,
+      "description": "Modern fitness facility with personal training available"
+    },
+    {
+      "id": "9",
+      "name": "TEST",
+      "category": "event",
+      "rating": 0,
+      "reviewCount": 0,
+      "address": "TEST",
+      "phone": "",
+      "hours": "",
+      "image": "",
+      "isOpen": true,
+      "description": "TEST"
+    },
+    {
+      "id": "10",
+      "name": "testw",
+      "category": "event",
+      "rating": 0,
+      "reviewCount": 0,
+      "address": "!",
+      "phone": "",
+      "hours": "",
+      "image": "",
+      "isOpen": true,
+      "description": "testw"
+    },
+    {
+      "id": "13",
+      "name": "Test",
+      "category": "event",
+      "rating": 0,
+      "reviewCount": 0,
+      "address": "Amphitheatre Parkway, Mountain View, California, United States",
+      "phone": "",
+      "hours": "",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fbolt-expo-nativewind-e2787872-e09b-4bd2-aa23-678c2583a07d/ImagePicker/e5cf1635-6000-446b-9d37-73b9ba14f47a.jpeg",
+      "isOpen": true,
+      "description": "Test"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "type": "social",
+      "title": "Nowy komentarz",
+      "message": "Anna Nowak skomentował(a) Twój post",
+      "timestamp": "2023-05-10T09:25:00Z",
+      "isRead": true,
+      "priority": "medium"
+    },
+    {
+      "id": "2",
+      "type": "alert",
+      "title": "Awaria wody",
+      "message": "Planowana awaria wody w Twojej dzielnicy",
+      "timestamp": "2023-05-11T07:35:00Z",
+      "isRead": false,
+      "priority": "high"
+    },
+    {
+      "id": "3",
+      "type": "alert",
+      "title": "Emergency Alert",
+      "message": "Power outage reported in downtown area. Expected restoration: 6 PM",
+      "timestamp": "10 minutes ago",
+      "isRead": false,
+      "priority": "high"
+    },
+    {
+      "id": "4",
+      "type": "event",
+      "title": "Community BBQ Tomorrow",
+      "message": "Don\"t forget about the neighborhood BBQ at Central Park starting at 2 PM",
+      "timestamp": "2 hours ago",
+      "isRead": false,
+      "priority": "medium"
+    },
+    {
+      "id": "5",
+      "type": "social",
+      "title": "New Comment",
+      "message": "Mike Chen commented on your post about the lost cat",
+      "timestamp": "4 hours ago",
+      "isRead": true,
+      "priority": "low"
+    },
+    {
+      "id": "6",
+      "type": "alert",
+      "title": "Road Closure",
+      "message": "Main Street will be closed for construction from 8 AM to 4 PM",
+      "timestamp": "6 hours ago",
+      "isRead": true,
+      "priority": "medium"
+    },
+    {
+      "id": "7",
+      "type": "social",
+      "title": "Post Liked",
+      "message": "Sarah Johnson and 12 others liked your sunset photo",
+      "timestamp": "8 hours ago",
+      "isRead": true,
+      "priority": "low"
+    },
+    {
+      "id": "8",
+      "type": "system",
+      "title": "Weekly Summary",
+      "message": "You have 5 new neighbors in your area this week",
+      "timestamp": "1 day ago",
+      "isRead": false,
+      "priority": "low"
+    },
+    {
+      "id": "9",
+      "type": "alert",
+      "title": "New Community Alert",
+      "message": "TEST@",
+      "timestamp": "2025-06-08T16:39:51.992Z",
+      "isRead": false,
+      "priority": "high"
+    }
+  ]
+}
